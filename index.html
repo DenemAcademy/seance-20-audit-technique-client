@@ -377,6 +377,9 @@ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 document.querySelectorAll('.prompt-panel').forEach(panel=>{const btn=panel.querySelector('.copy');const code=panel.querySelector('code');if(!btn||!code)return;btn.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(code.innerText);btn.textContent='Copié';btn.classList.add('copied');setTimeout(()=>{btn.textContent='Copier';btn.classList.remove('copied')},1300)}catch(e){btn.textContent='Sélectionne'}})});
 </script>
 
+
+
+
 <!-- DENEM visual system normalization -->
 <style id="denem-visual-system">
 :root {
@@ -385,6 +388,28 @@ document.querySelectorAll('.prompt-panel').forEach(panel=>{const btn=panel.query
   --denem-paper: #ffffff;
   --denem-shadow: 5px 5px 0 #111827;
   --denem-shadow-sm: 3px 3px 0 #111827;
+  --blue: var(--denem-accent);
+  --violet: var(--denem-accent);
+  --cyan: var(--denem-accent);
+  --green: var(--denem-accent);
+  --amber: var(--denem-accent);
+  --orange: var(--denem-accent);
+  --red: var(--denem-accent);
+  --red-dark: var(--denem-accent);
+  --teal: var(--denem-accent);
+  --brass: var(--denem-accent);
+  --purple: var(--denem-accent);
+  --pink: var(--denem-accent);
+  --red-soft: #fff;
+  --teal-soft: #fff;
+  --brass-soft: #fff;
+  --mint: #fff;
+  --lav: #fff;
+  --sky: #fff;
+  --rose: #fff;
+  --cream: #fff;
+  --soft: #fff;
+  --gray: #fff;
 }
 html { background: var(--denem-paper) !important; }
 body {
