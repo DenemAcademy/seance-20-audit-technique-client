@@ -1,0 +1,778 @@
+# Séance 20 - Transcription brute
+
+- Vidéo : `SEANCE 20AUDIT TECHNIQUE.mp4`
+- Durée détectée : 00:55:18
+- Langue : fr
+
+## Segments
+
+### 00:00:00 - 00:00:03
+bonjour à tous et à toutes j'espère que vous allez bien donc on se retrouve
+
+### 00:00:03 - 00:00:09
+aujourd'hui pour la séance numéro 20 et on va réaliser un audit technique donc
+
+### 00:00:09 - 00:00:13
+là on va prendre exemple qu'un prospect m'a répondu à ma
+
+### 00:00:13 - 00:00:17
+prospection automatisée par mail il a pris un rendez-vous sur canonline
+
+### 00:00:17 - 00:00:22
+on a fait un R1 j'ai compris du coup tout simplement ce qu'il voulait et du
+
+### 00:00:22 - 00:00:26
+coup j'ai retranscrit tout son code donc j'ai essayé de me rapprocher le
+
+### 00:00:26 - 00:00:33
+plus possible d'un cadre qui crée un R1 que j'ai l'habitude de faire, donc du
+
+### 00:00:33 - 00:00:37
+coup on va se baser sur ça pour faire ensuite l'audit. Je vais tout vous
+
+### 00:00:37 - 00:00:41
+expliquer, vous allez voir c'est pas compliqué et ça va être très très
+
+### 00:00:41 - 00:00:46
+qualitatif. Je vais vous donner deux stratégies, je vais juste recopier leur
+
+### 00:00:46 - 00:00:49
+retranscription pour qu'on se la lisent ensemble et qu'on arrive à
+
+### 00:00:49 - 00:00:59
+comprendre justement le doc. Le but c'est de ne pas se prendre la
+
+### 00:00:59 - 00:01:04
+encore une fois. Donc là, je sors du R1 avec mon client. Normalement, si vous avez bien connecté
+
+### 00:01:04 - 00:01:13
+les API, enfin les connecteurs FireFold et Cloud Cowork, vous allez pouvoir voir la
+
+### 00:01:13 - 00:01:16
+retranscription directe, donc vous allez pouvoir chat-chat avec votre client. Là, on va le faire
+
+### 00:01:16 - 00:01:22
+avec Codex. En gros, voilà, je sors de mon R1, ça s'est bien passé, j'ai vu que le client
+
+### 00:01:22 - 00:01:26
+avait des problématiques. Maintenant, le but, ça va être de détecter ces problématiques-là
+
+### 00:01:26 - 00:01:31
+pour ensuite lui faire une proposition. Il y a deux stratégies, soit vous faites un audit payant,
+
+### 00:01:31 - 00:01:42
+on l'a vu au départ, si derrière vous avez, on va dire, une stratégie où vous souhaitez faire
+
+### 00:01:42 - 00:01:47
+payer du coût de client pour ça en plus, ou vous faites un audit gratuit, moi stratégie c'est un
+
+### 00:01:47 - 00:01:51
+gratuit mais j'ai bossé pour des agences où derrière ils font 3000 ou 3500 l'audit ça
+
+### 00:01:51 - 00:01:55
+dépend de la boîte et honnêtement c'est moi qui l'ai fait, je l'ai fait en
+
+### 00:01:55 - 00:02:00
+Wotshot comme je vais vous montrer et ils sont très satisfaits, ça cartonne donc
+
+### 00:02:00 - 00:02:02
+c'est pour ça que je vous dis pas besoin de se prendre la tête
+
+### 00:02:02 - 00:02:07
+le but c'est de comprendre le client et il y a peu comprendre le client donc
+
+### 00:02:07 - 00:02:11
+on va bien sûr la brander pour qu'on arrive à une solution qui correspond à
+
+### 00:02:11 - 00:02:15
+la demande, on ne va pas lui proposer du marketing alors que lui il veut
+
+### 00:02:15 - 00:02:19
+gagner du temps sur ses réseaux c'est clair donc on va voir comment faire ça
+
+### 00:02:19 - 00:02:24
+Donc c'est simple, vous avez votre retranscription, vous la récupérez où vous voulez, donc sur
+
+### 00:02:24 - 00:02:31
+Firefox si vous avez, ou sinon convertissez votre fichier mp3 directement ou le donnez
+
+### 00:02:31 - 00:02:38
+à Codex pour qu'ensuite ils puissent tout simplement avoir toute leur retranscription.
+
+### 00:02:38 - 00:02:45
+Donc on va aller sur client, nouveau terminal au dossier, on va faire même mieux que ça.
+
+### 00:02:45 - 00:02:54
+hop contexte donc échange avec Hugo chef maison du cas cartoon donc nous on va faire ça
+
+### 00:02:54 - 00:03:02
+client maison du cas cartoon et là on va ouvrir le dossier nouveau terminal au dossier
+
+### 00:03:02 - 00:03:13
+et maintenant on va copier la commande je sais plus si je l'ai mise ici ok superbe ok donc
+
+### 00:03:13 - 00:03:20
+maintenant je lance mon codex donc ce qu'il va falloir faire c'est tout simplement lui
+
+### 00:03:20 - 00:03:35
+lui donner la retranscription. Je travaille sur un audit, il prend ce don, celui-là, nous
+
+### 00:03:35 - 00:03:39
+avons FTP. Très simple, on lui fait un petit message, on lui donne la retranscription et
+
+### 00:03:39 - 00:03:44
+ensuite on va travailler avec lui, je l'ai collé deux fois, on va travailler avec lui,
+
+### 00:03:44 - 00:04:02
+on fasse la présentation directement. Ces vrais problèmes, demandes dispersées,
+
+### 00:04:02 - 00:04:18
+Les demandes arrivent par Instagram, Google Téléphone, le GCN, un message direct à l'équipe, manque de suivi, le problème n'est pas seulement recevoir les demandes, c'est que les suivent jusqu'à une réponse claire, perte potentielle de shift à faire, trop mentale.
+
+### 00:04:18 - 00:04:59
+Le but, c'est qu'on se rapproche le plus possible de ce qu'il souhaite, donc on lui donne un peu plus de contexte à challenge lpt, parce que là on lui a donné juste une retranscription.
+
+### 00:04:59 - 00:05:42
+Parce que là, positionnement, on passe pas l'humain, on enlève les outils, on prépare les bonnes réponses, on les prépare pour suivre les demandes.
+
+### 00:05:42 - 00:06:01
+Ça, on va le faire directement.
+
+### 00:06:01 - 00:06:41
+Ok, donc on va voir ce qu'il me dit.
+
+### 00:06:41 - 00:06:47
+Produire, assistant, IA, de gestion de demandes clients, centralisé, qualifié, suivi, relancé,
+
+### 00:06:47 - 00:06:50
+aidé, à répondre aux demandes, remplacé les équipements.
+
+### 00:06:50 - 00:07:09
+Ok, superbe, ça j'aime bien.
+
+### 00:07:09 - 00:07:12
+Votes de réception centralisées, puis pleine de sujets simples.
+
+### 00:07:12 - 00:07:16
+Chaque demande, un statut, une nouvelle, qualifié, répond, à relancer.
+
+### 00:07:16 - 00:07:36
+Ok, c'est superbe.
+
+### 00:07:36 - 00:07:38
+Ok, j'aime bien.
+
+### 00:07:38 - 00:07:40
+Ok, top.
+
+### 00:07:40 - 00:07:54
+Donc là maintenant on va lui donner la tâche d'aller analyser son site en MCP, STP.
+
+### 00:07:54 - 00:08:12
+Là c'est comme si je le faisais en live, moi c'est comme ça que je fais avec mes clés honnêtement.
+
+### 00:08:12 - 00:08:17
+C'est de comprendre un maximum son besoin, ensuite j'analyse toute son entreprise.
+
+### 00:08:17 - 00:08:36
+Donc là en MCP il va le faire direct, Codex il va cliquer sur toutes les pages.
+
+### 00:08:36 - 00:08:43
+On laisse travailler, là c'est un restaurant de luxe.
+
+### 00:08:43 - 00:09:01
+Ce qui comprenne son positionnement, c'est très important.
+
+### 00:09:01 - 00:09:07
+Là, il est en train de regarder les pages, les tables.
+
+### 00:09:07 - 00:10:03
+Enfin bref, là, il est carrément en train de préparer les préservations qu'on le laisse faire.
+
+### 00:10:03 - 00:10:07
+Puis c'est qu'il comprenne tout le système. Nous, on n'est pas à le faire.
+
+### 00:10:07 - 00:10:13
+Parce qu'il a une réflexion bien plus puissante que la nôtre.
+
+### 00:10:13 - 00:10:17
+Il va pouvoir accumuler énormément d'informations que nous, on n'aurait probablement pas le temps de voir.
+
+### 00:10:17 - 00:10:43
+Elle regarde aussi la version mobile, donc top, on laisse travailler.
+
+### 00:10:43 - 00:10:52
+L'objectif, ça va être d'aller voir justement d'autres sources que je prépare à mon compte.
+
+### 00:10:52 - 00:11:03
+Ok, c'est bon.
+
+### 00:11:03 - 00:11:49
+Donc là, je lui demande tout simplement d'aller flûter un petit peu son entreprise
+
+### 00:11:49 - 00:11:51
+pour récupérer un maximum d'informations.
+
+### 00:11:51 - 00:11:55
+Ce qui est important, comme ça, derrière, quand on va faire l'audit, on aura du content.
+
+### 00:11:55 - 00:11:57
+On sait déjà ce qu'on veut lui vendre.
+
+### 00:11:57 - 00:12:03
+conserverie il y a. Mais le plus important c'est que ça ne fasse pas le généraliste.
+
+### 00:12:03 - 00:12:11
+Il faut qu'il ouvre la présentation, qu'il comprenne tout simplement qu'on a compris
+
+### 00:12:11 - 00:12:18
+ce qu'il souhaitait. Donc là il va aller ouvrir le PDF, comprendre le prix, comprendre le
+
+### 00:12:18 - 00:12:37
+positionnement. Je vais lui demander aussi d'extraire les couleurs. C'est qu'on va faire
+
+### 00:12:37 - 00:12:45
+la présentation, il va falloir qu'on soit singulaires à son branding. A part si votre
+
+### 00:12:45 - 00:12:49
+stratégie est différente, vous voulez vraiment faire une présentation couvert de
+
+### 00:12:49 - 00:12:55
+hôdre, agence, profil freelance. Personnellement, j'aime bien m'adapter,
+
+### 00:12:55 - 00:13:03
+arriver vraiment sur un branding qui correspond à mon prospect et toutes les
+
+### 00:13:03 - 00:13:08
+impressions que j'ai eu par rapport à ce que je propose, c'est waouh, merci, c'est
+
+### 00:13:08 - 00:13:11
+incroyable. Ceux qui ne sont pas habitués, quand
+
+### 00:13:11 - 00:13:14
+ils voient un maximum d'informations que même eux savent pas au niveau de
+
+### 00:13:14 - 00:13:21
+le restaurant, il est chaud, ça me donne envie de bosser avec lui, il a pris du temps.
+
+### 00:13:21 - 00:13:44
+Là vous voyez, ça ne va pas prendre plus d'une heure maximum, qu'il est en train de
+
+### 00:13:44 - 00:14:25
+creuler les pages, top. En plus il est en train de prendre des screens. En fait ce
+
+### 00:14:25 - 00:14:30
+qui va être intéressant, c'est qu'avec ces screens là, c'est qu'on va monter
+
+### 00:14:30 - 00:14:35
+la présentation, ça va rajouter du plus supplémentaire. Et là c'est du contenu
+
+### 00:14:35 - 00:14:40
+pas que tant parce que c'est son restaurant à part qu'on a pris le temps
+
+### 00:14:40 - 00:14:46
+on va se balader dessus, prendre des screens, ajouter du contexte, etc
+
+### 00:14:46 - 00:16:12
+là il va sur LinkedIn, sur le game Michelin, il fait nuclear, en train de récolter toutes les
+
+### 00:16:12 - 00:16:49
+informations sur tous les sites, c'est top, il va récupérer sur société.com
+
+### 00:16:49 - 00:17:24
+condition générale de compte, il prépare en richeur du coup le fichier
+
+### 00:17:24 - 00:17:28
+md qu'on lui a demandé de créer. Là je pense qu'il n'a pas encore fait, parce qu'il n'a pas fini de
+
+### 00:17:28 - 00:18:09
+récolter les infos. Là il a fini, il va nous faire le fichier md, on peut attendre un petit peu. Là je
+
+### 00:18:09 - 00:18:13
+vais le faire manuellement, mais vous pouvez demander à codex aussi à la fin du codec de
+
+### 00:18:13 - 00:18:41
+régler les fichiers. Là on commence les images. Et vu que tous vos dossiers sont connectés à
+
+### 00:18:41 - 00:18:47
+co-work, vous allez pouvoir lui dire, fais moi un récap du projet, mais ils ont eu qu'à
+
+### 00:18:47 - 00:19:02
+cartoon et en fait avec le fichier MD vous allez avoir toutes les infos. On attend un petit peu encore
+
+### 00:19:02 - 00:20:32
+Donc là on a notre fichier MD qui est prêt. Si je l'ouvrais peut-être c'est edit. Là maintenant on va
+
+### 00:20:32 - 00:20:47
+le demander d'enrichir le fichier MD. On tombe sur le site, on regarde le code source pour récupérer
+
+### 00:20:47 - 00:20:54
+ça ça va être important pour le branding enfin le design de l'audit. La police et le design
+
+### 00:20:54 - 00:21:17
+système ok donc là on va le laisser retourner sur google donc là je pense
+
+### 00:21:17 - 00:21:31
+qu'il va aller sur le site, donc là il va faire clic gauche
+
+### 00:21:31 - 00:21:38
+je sais pas si on va le voir en live, il va regarder le code source, je vous l'avais
+
+### 00:21:38 - 00:21:45
+montré en info, le code source c'est par exemple inspecter ici, du coup on récupère
+
+### 00:21:45 - 00:21:49
+des informations, ça me permet de savoir par exemple quelle prise d'écriture
+
+### 00:21:49 - 00:21:53
+qu'est-ce que tu utilises, quelle taille, etc.
+
+### 00:21:53 - 00:21:58
+Je l'ai laissé au niveau du design.
+
+### 00:21:58 - 00:22:02
+C'est comme ça qu'on a réussi à refaire le log de manière
+
+### 00:22:02 - 00:22:06
+pratiquement identique, au site, souhaité.
+
+### 00:22:06 - 00:23:42
+Il m'a récupéré tout le design, et ensuite
+
+### 00:23:42 - 00:23:46
+c'est le moment de monter la présentation après l'auditique.
+
+### 00:23:46 - 00:23:53
+J'ai rajouté des images, des schémas,
+
+### 00:23:53 - 00:24:33
+d'être reprendre le Plectic. Ok donc là il a fini.
+
+### 00:25:35 - 00:28:15
+Ok donc c'est top. En gros là ce que je lui ai dit de faire c'est pas compliqué, c'est un petit point de fait maison.
+
+### 00:28:16 - 00:28:21
+On a récupéré le design, maintenant on lui demande de nous faire l'audit, donc la présentation de l'audit.
+
+### 00:28:21 - 00:28:24
+On va pas lui envoyer un vulgaire google doc.
+
+### 00:28:25 - 00:28:29
+Le Plectic c'est voilà. On met ça sous la main constamment et qu'on lui envoie
+
+### 00:28:30 - 00:28:35
+aussi par mail. Il puisse l'analyser, le lire, le prendre et qu'on mette une base sur
+
+### 00:28:35 - 00:28:45
+le call qu'on a eu tout à l'heure, on lui propose après R2, on a fait le R1, et après
+
+### 00:28:45 - 00:28:47
+on a essayé de boucler ça direct au R2.
+
+### 00:28:47 - 00:28:59
+Pourquoi j'ai proposé 8500€ ? Parce que je sais que sur le prix, on va lui faire
+
+### 00:28:59 - 00:29:04
+économiser une coupe de temps, il ne faut pas se baser sur votre IGM, le but c'est
+
+### 00:29:04 - 00:29:05
+de se baser sur votre projet.
+
+### 00:29:05 - 00:29:11
+Dès qu'on me faisait avoir comme ça, des infrastructures à complète que je faisais
+
+### 00:29:11 - 00:29:19
+des boîtes, je leur faisais économiser 200-300 000 euros par an, ils ne recrutaient plus du coup et
+
+### 00:29:19 - 00:29:26
+ça centralisait toutes leurs informations sur un seul et même logiciel et du coup ils n'avaient
+
+### 00:29:26 - 00:29:31
+plus besoin de payer des abonnements astronomiques à des sommes astronomiques sur des SaaS etc.
+
+### 00:29:31 - 00:29:39
+J'étais rémunéré, j'ai géré ça en 3 semaines, j'étais rémunéré 3 semaines de TGM donc 5
+
+### 00:29:39 - 00:29:45
+jours à 300, je crois que j'étais à 350 avant 400, je sais pas, laisse tomber alors que derrière
+
+### 00:29:45 - 00:29:52
+maintenant, fait d'avoir une agence, je sais que je facture pas au TGM, mon TGM moyen il est à 1400 on va
+
+### 00:29:52 - 00:30:02
+dire, soit tu payes en TGM si tu veux, 1400 x 20 jours ça me fait 28, en bref vous avez
+
+### 00:30:02 - 00:30:07
+compris le but c'est que derrière vous facturez sur le temps que vous allez lui faire gagner,
+
+### 00:30:07 - 00:30:12
+et une OCA que vous allez gagner aussi, parce que d'autant c'est de l'argent pour
+
+### 00:30:12 - 00:30:16
+eux, ils le savent très bien, et si tu peux leur enlever des tâches et éviter de recruter,
+
+### 00:30:16 - 00:30:20
+vous prenez l'exemple d'un salarié, je ne sais pas, avec un salaire moyen, je
+
+### 00:30:20 - 00:30:26
+crois en France, c'est 1 800, pas le SMIC, mais moyen, peut-être 1 700, 1 700 peut-être.
+
+### 00:30:26 - 00:30:33
+Moi j'en sais rien, il va payer les charges patronales, donc je ne sais pas, il va
+
+### 00:30:33 - 00:30:41
+peut-être le payer au final, lui, de sa poche 2006-2005, sur une année il va être à 30 000,
+
+### 00:30:41 - 00:30:47
+voilà. Vous pouvez économiser, enfin vous pouvez lui faire économiser de salarié facilement. Donc
+
+### 00:30:47 - 00:30:53
+voilà, c'est 60 000 sur un an, sur même pas si moi il est déjà rentable, son héros il est au
+
+### 00:30:53 - 00:30:58
+top. Donc c'est à vous après d'être bon aussi en termes de négociations. Voilà, je te fais
+
+### 00:30:58 - 00:31:02
+économiser ça, ça, ton système va se cahiller pendant 5-6 ans, tu n'auras pas besoin de
+
+### 00:31:02 - 00:31:07
+recruté donc tu as un plus de ça, tu n'auras même pas plus besoin de maladger etc.
+
+### 00:31:07 - 00:31:14
+ça tourne 24-24, tu m'as été rentable, tu as gagné du temps, maintenant let's go
+
+### 00:31:14 - 00:31:56
+quoi, tu me laisses travailler. Encore une fois, vous pouvez très bien vendre des
+
+### 00:31:56 - 00:32:01
+autres techniques comme ça. Honnêtement, comme je vous l'ai dit, j'ai bossé pour
+
+### 00:32:01 - 00:32:06
+une agence qui est assez connue dans l'IA actuellement, parce que Sado est
+
+### 00:32:06 - 00:32:14
+toi, top 3, top 4, ou de CA, c'est un minimum de 2005-2000 par audit, et c'est moi qui
+
+### 00:32:14 - 00:32:21
+l'ai fait les audits, enfin je fais exactement ce que je suis en train de faire.
+
+### 00:32:21 - 00:32:25
+Honnêtement, ils sont très satisfaits, jamais mis de retour négatif, et en plus
+
+### 00:32:25 - 00:32:28
+de ça, ça permet de poser du contexte, ils sont contents, on a analysé toutes
+
+### 00:32:28 - 00:32:32
+leurs boîtes, après la proposition elle passe tout seul, parce qu'en fait ils
+
+### 00:32:32 - 00:32:38
+sont déjà investis avec vous, qui sont payés 2500 minimum l'audit, je me suis dit
+
+### 00:32:38 - 00:32:42
+ah bon en plus il m'a fait un mal d'audit donc je vais continuer avec sa proposition
+
+### 00:32:42 - 00:32:44
+de toute manière je peux plus faire marche arrière, oui j'ai déjà payé l'audit,
+
+### 00:32:44 - 00:32:49
+je veux dire que j'aurais tout recommencé, bref vous avez compris, ça dépend de
+
+### 00:32:49 - 00:32:57
+vos stratégies encore une fois, mais il y a plein de choses aussi à réinventer,
+
+### 00:32:57 - 00:33:02
+à améliorer, je ne sais pas que j'ai les meilleurs systèmes, en tout cas
+
+### 00:33:02 - 00:33:05
+Il marche, mais vous pouvez les améliorer, c'est une certitude.
+
+### 00:33:05 - 00:33:08
+Ça, c'est déjà...
+
+### 00:33:08 - 00:33:23
+Ensuite, nous on veut quelque chose de simple.
+
+### 00:33:23 - 00:33:25
+Donc on va appeler de l'air, fichez HTML.
+
+### 00:33:25 - 00:33:27
+C'est pas pour vous, on veut un lien.
+
+### 00:33:27 - 00:33:30
+Donc on va lui donner un lien, on va faire kit up directement.
+
+### 00:33:30 - 00:33:34
+On va lui demander à Codex de créer un repos,
+
+### 00:33:34 - 00:33:36
+et ensuite créer une page,
+
+### 00:33:36 - 00:33:39
+pour qu'on ait ce fanblog.
+
+### 00:33:39 - 00:34:00
+Ça va prendre un petit peu de temps parce qu'il y a 50 sections,
+
+### 00:34:00 - 00:34:16
+mais le système c'est toujours le même.
+
+### 00:34:16 - 00:34:24
+On sort du col avec le client, on récupère la retranscription, l'analyse, on lui demande
+
+### 00:34:24 - 00:34:29
+d'aller faire des recherches sur la boîte, il récupère les informations, on monte
+
+### 00:34:29 - 00:34:31
+la présentation, on lui envoie.
+
+### 00:34:31 - 00:34:39
+Ayer on m'attend 2 journées, il a pris du temps, et ça se fait très rapidement.
+
+### 00:34:39 - 00:34:46
+Le petit conseil que je vais vous donner, c'est que dès que vous réussissez,
+
+### 00:34:46 - 00:34:53
+répond pas pour un R2, faites-vous constamment, oubliez deux jours, trois jours, on la connait
+
+### 00:34:53 - 00:35:00
+jusqu'à tant qu'on a une réponse. Si vous vous d'un an vous n'avez pas de réponse,
+
+### 00:35:00 - 00:35:07
+arrêtez, laissez-vous deux mois, même parfois ce qui marche très très très très bien,
+
+### 00:35:07 - 00:35:13
+ça je peux vous l'assurer, que si vous faites un R1 avec un client, enfin avec un prospect
+
+### 00:35:13 - 00:35:19
+plutôt, qui vous demande à la fin un audit, donc que vous vous le faites free, et qu'ensuite
+
+### 00:35:19 - 00:35:25
+vous lui envoyez, et qui répond pas par mail la 2 ou 3 relance, allez tout simplement
+
+### 00:35:25 - 00:35:29
+l'appeler, enfin l'appeler le directement, je sais que c'est pas facile à faire, parce
+
+### 00:35:29 - 00:35:35
+que voilà, c'est pas top, il vous répond pas, donc vous allez la recevoir par téléphone,
+
+### 00:35:35 - 00:35:38
+et une fois qu'il va répondre par téléphone, c'est le premier à s'excuser, à se dire
+
+### 00:35:38 - 00:35:44
+excusez-moi c'est pardon j'ai vu votre édition est superbe etc et voilà ça peut
+
+### 00:35:44 - 00:35:48
+finir en deal mais faut pas le lâcher en tout cas parce que faut toujours se
+
+### 00:35:48 - 00:35:53
+mettre ça en tête quand vous avez un client et peut vous apporter des
+
+### 00:35:53 - 00:35:59
+automatisations donc si vous les facturez assez cher ça va venir il va
+
+### 00:35:59 - 00:36:02
+revenir vers vous plus de ça vous savez que si vous mettez en place
+
+### 00:36:02 - 00:36:06
+correctement le système le roi va être très rapide pour lui il va
+
+### 00:36:06 - 00:36:12
+comprendre et il va vouloir automatiser d'autres choses mais ça c'est vraiment
+
+### 00:36:12 - 00:36:16
+vrai j'ai pas eu un client qui m'a pas demandé une automatisation à part pour
+
+### 00:36:16 - 00:36:20
+des infrastructures complètes il y a où là ça va plus être des phases
+
+### 00:36:20 - 00:36:24
+d'amélioration, des sens sur l'infrastructure etc mais la plupart du
+
+### 00:36:24 - 00:36:29
+temps les mecs sont chauds pour tout automatiser par la
+
+### 00:36:29 - 00:36:33
+suite et c'est des gros billes après qui tombent, des gros clirés, gros
+
+### 00:36:33 - 00:36:48
+il a préparé le fichier qui est top, on va le laisser analyser pour qu'il fasse les
+
+### 00:36:48 - 00:36:57
+améliorations aussi, de ne plus laisser dormir les demandes potentielles, le problème n'est pas la visibilité
+
+### 00:36:57 - 00:37:23
+c'est le suivi, le site exitv1, là on voit que les accents et en tout cas les belles la
+
+### 00:37:23 - 00:37:49
+présentation, il y a beaucoup d'effets, là il a un produit, là il y a les images,
+
+### 00:37:49 - 00:37:53
+c'est premium, c'est cool. Je vais juste réduire un peu la taille des
+
+### 00:37:53 - 00:38:13
+titres. Donc là je coupe le mcpi parce que réduit la taille des titres s'il te plaît, ils sont
+
+### 00:38:13 - 00:38:24
+et là je vois qu'il n'y a pas d'accent, c'est souvent, il y a des problèmes qu'on
+
+### 00:38:24 - 00:38:49
+revient, je lui achète des mails assez longs, là on va lui demander qu'il
+
+### 00:38:49 - 00:39:04
+ensuite rôde, tourne ses phrases, donc là les chaînements sont parfaits, donc là
+
+### 00:39:04 - 00:39:09
+on lui élancent le prix, 30 convives sur un menu 4 services, 125 euros, on va voir
+
+### 00:39:09 - 00:39:13
+son option, et là encore une fois on se base sur son menu, donc c'est des
+
+### 00:39:13 - 00:39:16
+vrais calculs, qui sont un pack non, qui comprend, il sait que c'est pas
+
+### 00:39:16 - 00:39:19
+faux ce que je dis, donc là on peut lui faire économiser 6300 avec
+
+### 00:39:19 - 00:39:23
+notre système, le mec c'est ça qu'il se dit dans sa tête. Très important.
+
+### 00:39:23 - 00:40:33
+On m'avait dit les titres, donc je vais lui demander de réduire encore. C'est important
+
+### 00:40:33 - 00:40:40
+de lui dire ça. Deux opportunités sauvées par mois, deux demandes de 10 à 15 euros,
+
+### 00:40:40 - 00:40:44
+ça nous peut faire représenter 4 000 avec avant boisson assuré que le projet devienne
+
+### 00:40:44 - 00:40:49
+un outil de protection de revenus, pas une dépense tech. Voilà, on lui fait comprendre
+
+### 00:40:49 - 00:40:57
+que c'est important. Formulaire intelligent mais pas discret. Il y a une ICRM, une
+
+### 00:40:57 - 00:41:02
+qui comprend tout de suite, une voix qualifiée, répondue à renonce, normalité, perdure, chier.
+
+### 00:41:02 - 00:41:23
+Là, il a bien toutes les informations, ils sont superbes les schémas, superbes.
+
+### 00:41:23 - 00:41:46
+Là, il confond bien tout. Là aussi, il faut ouvrir un petit poem'
+
+### 00:41:46 - 00:41:57
+Ah bah non, parce que ça sort. On pourrait faire quelque chose, on va lui demander après.
+
+### 00:41:57 - 00:42:31
+Là aussi, on a un petit poem', centré. Là, justement, 4 semaines, on peut lui
+
+### 00:42:31 - 00:42:41
+livrer ça. On a deux gros municiers red, brown, 0,4, 3. Donc là il y a bien toutes les informations.
+
+### 00:42:41 - 00:43:03
+Assez robuste pour suivre, assez léger pour être adopté. Franchement il y a quelque chose qui
+
+### 00:43:03 - 00:43:12
+passe qui est pas mal du tout. Ce qui est très bien. Bien toutes les infos, peut-être la
+
+### 00:43:12 - 00:43:27
+rajouter dans le cheveux. Peut-être la maison du cas fonctionne et le design est plutôt cool.
+
+### 00:43:27 - 00:43:39
+correspond bien à la charte de l'entreprise, c'est très important de lui donner ça. Donc ça
+
+### 00:43:39 - 00:43:51
+change aussi ce que nous avons analysé au site. Après il y a des petites améliorations à faire
+
+### 00:43:51 - 00:43:59
+bien sûr, c'est la perfection. Selon votre branding, sur comment vous souhaitez vous exprimer,
+
+### 00:43:59 - 00:44:07
+sur vos souhaités ventes, etc. Je suis bien plus amical sur mes présentations, mais c'est une
+
+### 00:44:07 - 00:45:08
+boîte assez grande, assez grosse pardon, je discute un petit peu humain donc là il
+
+### 00:45:08 - 00:45:47
+fait du play write donc je vais lui demander, je lui donne un petit peu les
+
+### 00:45:47 - 00:46:10
+formes de phrases, je lui dis très simple, ne prédit pas la tête
+
+### 00:46:10 - 00:46:20
+donc là on a vu qu'il y avait des prèmes au niveau des schémas donc celui là ça allait
+
+### 00:46:20 - 00:46:48
+celui-là aussi, celui-là aussi, c'était celui-là, donc là je l'ai fait, refais-le, et ici,
+
+### 00:46:48 - 00:47:03
+merci, et ici, cadre, bien, texte stoppé, et ensuite on est en train d'aller pousser directement
+
+### 00:47:03 - 00:47:06
+sur GitHub, une fois qu'on aura récupéré le lien, on va faire le petit make très simple,
+
+### 00:47:06 - 00:47:14
+hello, du coup j'espère que tu vas bien, j'ai analysé ta boîte, fin de ton restaurant,
+
+### 00:47:14 - 00:47:19
+voici un petit peu ce que j'ai trouvé, dis moi ce que tu penses, on se refait un call
+
+### 00:47:19 - 00:48:47
+parce que t'as de la disponibilité pour les interrogations, c'est super, il a compris là le test
+
+### 00:48:47 - 00:49:17
+on va avoir plus d'informations qu'à noter si le système est amélioré et les petits schémas
+
+### 00:49:17 - 00:50:03
+ah ok il a changé, ah donc il a changé c'est top, là on a un study avec en plus de
+
+### 00:50:03 - 00:50:08
+c'est la proposition va pouvoir l'envoyer à bord va falloir que c'est
+
+### 00:50:08 - 00:50:39
+sur github et donne moi je vais pas écrire j'écris tellement sur codec
+
+### 00:50:39 - 00:53:18
+ce que je fais si je fais 30 fautes là ok donc là on a bien notre présentation
+
+### 00:53:18 - 00:53:26
+qui est prête donc là si je récupère le lien juste ici je vais aller ici à
+
+### 00:53:26 - 00:53:31
+bien la présentation fonctionne donc c'est top il va pouvoir cliquer sur le
+
+### 00:53:31 - 00:53:35
+lien ça fait pro il voit mon nom prénom il voit le nom de son restaurant c'est
+
+### 00:53:35 - 00:53:43
+parfait plus lien sécurité et guita et c'est vrai je pense que vous pouvez acheter un
+
+### 00:53:43 - 00:53:49
+nom de domaine fin un url sur le domaine c'est la présentation mais
+
+### 00:53:49 - 00:53:56
+c'est pas utile ok donc là c'est top on a tout
+
+### 00:53:56 - 00:54:02
+Donc maintenant je peux très bien le dire, de faire des améliorations aussi au niveau de ça, mais on a vu qu'on en a déjà fait.
+
+### 00:54:02 - 00:54:12
+Faites-moi un mail s'il te plaît, propose, call, s'il te plaît.
+
+### 00:54:12 - 00:54:29
+On le dit, c'est le courrier qu'on fait.
+
+### 00:54:29 - 00:54:59
+Ok, c'est parfait, voilà.
+
+### 00:54:59 - 00:55:01
+Là je leur envoie ce mail là.
+
+### 00:55:01 - 00:55:06
+J'espère que cette session vous a plu.
+
+### 00:55:06 - 00:55:08
+Et on se retrouve tout de suite pour la suite.
+
+### 00:55:08 - 00:55:15
+Donc là on va parler de cas clidant, comment créer un projet de reset, voilà, à tout de suite !
